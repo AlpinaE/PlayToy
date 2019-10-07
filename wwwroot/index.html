@@ -4,45 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu</title>
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Principal.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/menu.js"></script>
-</head>
 
-<body>
-    <div class="border-bottom">
-        <header>
-            <div class="menu_bar">
-                <a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+<body id="myPage">
+    </head>
+
+    <body>
+        <!-- Sidebar on click -->
+        <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2"
+            id="mySidebar">
+            <a href="javascript:void(0)" onclick="w3_close()"
+                class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+                <i class="fa fa-remove"></i>
+            </a>
+            <a href="#" class="w3-bar-item w3-button">Interactivos</a>
+            <a href="#" class="w3-bar-item w3-button">Mesa</a>
+            <a href="#" class="w3-bar-item w3-button">Modernos 3</a>
+
+        </nav>
+
+        <!-- Navbar -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme-d2 w3-left-align">
+                <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+                    href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>PLAY
+                    TOYS</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Nosotros</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sedes</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Regitrate</a>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Iniciar secion</a>
+                <div class="w3-dropdown-hover w3-hide-small">
+                    <button class="w3-button" title="Notifications">categoria <i class="fa fa-caret-down"></i></button>
+                    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                        <a href="#" class="w3-bar-item w3-button">Interactivos</a>
+                        <a href="#" class="w3-bar-item w3-button">Mesa</a>
+                        <a href="#" class="w3-bar-item w3-button">Modernos</a>
+                    </div>
+                </div>
+                <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i
+                        class="fa fa-search"></i></a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#"><span class="icon-house"></span>Inicio</a></li>
-                    <li><a href="#"><span class="icon-suitcase"></span>Nosotros</a></li>
-                    <li class="submenu">
-                        <a href="#"><span class="icon-rocket"></span>Categorias<span
-                                class="caret icon-arrow-down6"></span></a>
-                        <ul class="children">
-                            <li><a href="#">SubElemento #1 <span class="icon-dot"></span></a></li>
-                            <li><a href="#">SubElemento #2 <span class="icon-dot"></span></a></li>
-                            <li><a href="#">SubElemento #3 <span class="icon-dot"></span></a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><span class="icon-earth"></span>Registrate</a></li>
-                    <li><a href="#"><span class="icon-mail"></span>Iniciarsecion</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
 
+            <!-- Barra de navegacion en movil -->
+            <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+                <a href="#" class="w3-bar-item w3-button">Nosotros</a>
+                <a href="#" class="w3-bar-item w3-button">Sedes</a>
+                <a href="#" class="w3-bar-item w3-button">Registrate</a>
+                <a href="#" class="w3-bar-item w3-button">Iniciar secion</a>
+                <a href="#" class="w3-bar-item w3-button">Search</a>
+            </div>
+        </div>
 
+        <!-- Imagen en el barner  -->
+        <div class="w3-display-container w3-animate-opacity">
+            
+            <img src="http://www.digitalsecuritymagazine.com/wp-content/uploads/2016/10/Vivotek-en-Hamleys-2.jpg"
+                alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+            <div class="w3-container w3-display-bottomleft w3-margin-bottom">               
+                <button onclick="document.getElementById('id01').style.display='block'"
+                    class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Descubre los mejores
+                    juguetes
+                </button>
+            </div>
+        </div>
 
-</body>
+    </body>
 
 </html>
