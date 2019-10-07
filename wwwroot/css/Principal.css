@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: aqua;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1.5px;
+}
+.section__titulo {
+    text-align: center;
+    font-size: 40px;
+    color: #FBA919;
+  }
+.contenedor {
+    margin: auto;
+    width: 99%;
+}
+/*-------------------Estilos del header de play toy -------------------*/
+.header {
+    height: 60px;
+}
+.header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.logo, .icon-menu {
+    margin: 5px;
+    color: #fff;
+}
+.icon-menu {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #FBA919;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+/*------------------Estilos del menu------------------*/
+.nav {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    transition: all 0.4s;
+  }
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .menu__link {
+    display: block;
+    padding: 15px;
+    background: #FBA919;
+    text-decoration: none;
+    color: #fff;
+  }
+  .menu__link:hover, .select {
+    background: white;
+    color: #FBA919;
+  }
+  .mostrar {
+    left: 0;
+  }
