@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.deps.json
 C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.runtimeconfig.json
 C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.runtimeconfig.dev.json
@@ -30,3 +31,37 @@ C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.V
 C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.dll
 C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.pdb
 C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.csproj.CopyComplete
+=======
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.deps.json
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.runtimeconfig.json
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.runtimeconfig.dev.json
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.dll
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.pdb
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.Views.dll
+D:\Documentos\PlayToy\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.Views.pdb
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.csprojAssemblyReference.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.csproj.CoreCompileInputs.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorAssemblyInfo.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorAssemblyInfo.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.AssemblyInfoInputs.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.AssemblyInfo.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.TagHelpers.input.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.TagHelpers.output.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorCoreGenerate.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorTargetAssemblyInfo.cache
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorTargetAssemblyInfo.cs
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.Views.pdb
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.dll
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.pdb
+D:\Documentos\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.csproj.CopyComplete
+>>>>>>> b1cc3025f9da7b4f988327272a274dd53ad88582
