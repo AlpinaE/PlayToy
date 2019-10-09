@@ -1,14 +1,18 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
 <style>
     img{
         margin-top: 40px;
     }
-    .disney{
+    .imagen{
         width: 200px;
 
+    }
+    .lego{
+        width: 150px;
+        margin-top: 5px;
     }
 </style>
 <div class="container">
@@ -16,10 +20,18 @@
         <div class="col-12 col-md-8">
             <img src="/images/Robot.PNG">
         </div>
-        <div class="col-6 col-md-4">
-             <img class="disney" src="/images/disney.jpg">
-             
-        </div>
+        <div class="row">
+            
+            <div class="col-3 col-md-2">
+                <img class="imagen" src="/images/disney.jpg">
+                <img class="imagen" src="/images/barbie.PNG">
+            </div>
+            <div class="col-3 col-md-2">
+                <img class="lego" src="/images/lego.jpg">
+                <img class="imagen" src="/images/hasbro.PNG">
+            </div>
+    </div>
+
     </div>
 </div>
 
