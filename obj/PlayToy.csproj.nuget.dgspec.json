@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-1\\PlayToy.csproj": {}
+    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj": {}
   },
   "projects": {
-    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-1\\PlayToy.csproj": {
+    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-1\\PlayToy.csproj",
+        "projectUniqueName": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj",
         "projectName": "PlayToy",
-        "projectPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-1\\PlayToy.csproj",
+        "projectPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj",
         "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-1\\obj\\",
+        "outputPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
