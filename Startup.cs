@@ -9,7 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-
+using PlayToy_3.Models;
+using Microsoft.EntityFrameworkCore;
 namespace PlayToy
 {
     public class Startup
@@ -33,6 +34,10 @@ namespace PlayToy
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddDbContext<JugueteriaContext>(o => o.UseNpgsql (" Host = ec2-54-83-9-36.compute-1.amazonaws.com; Username= lusfdogicdreor;"+ 
+                "Password= a3ca1f1545b695fdcad5c53eaeb4d717bbe627b02baa718294952f5925b7e41d;" + 
+                "Database = df58pne1bgkroj; Port= 5432; SSL Mode= Require; Trust Server certificate = true"));
             
         }
 
