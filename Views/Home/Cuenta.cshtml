@@ -1,0 +1,250 @@
+<style>
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 2px solid #5BE163 ;
+  background-color: #f1f1f1;
+  width: 20%;
+  height: 400px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #5BE163 ;
+  width: 70%;
+  border-left: none;
+  height: 400px;
+}
+
+.user{
+  padding:30px;
+}
+.c1{
+  margin: 30px;
+  height: 120px;
+  width: 500px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+#myBtn{
+  text-align: right;
+}
+</style>
+<div>
+
+
+<h2>Vertical Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+<div class="user">
+<div class="tab">
+  <img src="user.png" alt=""  height="100px" width="100px" style="margin-left:90px;">
+
+  <button class="tablinks" onclick="openCity(event, 'Misdatos')" id="defaultOpen">Mis datos</button>
+  <button class="tablinks" onclick="openCity(event, 'Mispedidos')">Mis pedidos</button>
+  <button class="tablinks" onclick="openCity(event, 'Paneldecontrol')">Panel de control</button>
+  <button class="tablinks">Cerrar sesión</button>
+</div>
+
+<div id="Misdatos" class="tabcontent">
+  <div class="c1">
+  <h3>Mis datos</h3>
+  <div class="row">
+  <div class="c2">
+    <div class="col-md-12" align="right">
+    <a id="myBtn"><i class='far fa-edit' style="font-size:26px;"></i></a>
+  </div>
+  <label class="col-md-12" for="Name">Nombre: Pocho Alberto</label>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div id="Mispedidos" class="tabcontent">
+  <div class="c1">
+  <h3>Mis pedidos</h3>
+  <p> Esta vacío </p>
+  <button class="btn btn-success"> Continuar comprando</button>
+</div>
+</div>
+
+<div id="Paneldecontrol" class="tabcontent">
+  <div class="c1">
+  <h3>Panel de control</h3>
+  <p></p>
+</div>
+</div>
+</div>
+
+
+<!-- Trigger/Open The Modal -->
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
