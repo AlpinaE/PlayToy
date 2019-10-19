@@ -161,3 +161,11 @@ D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-3\obj\Debug\netcoreapp
 D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-3\obj\Debug\netcoreapp2.1\PlayToy.dll
 D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-3\obj\Debug\netcoreapp2.1\PlayToy.pdb
 D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-3\obj\Debug\netcoreapp2.1\PlayToy.csproj.CopyComplete
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.csprojAssemblyReference.cache
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.csproj.CoreCompileInputs.cache
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorAssemblyInfo.cache
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.RazorAssemblyInfo.cs
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.AssemblyInfoInputs.cache
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.AssemblyInfo.cs
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.dll
+C:\Users\Clase\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.pdb
