@@ -11803,11 +11803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Clase\\PlayToy\\PlayToy\\PlayToy.csproj",
+      "projectUniqueName": "C:\\Users\\Clase\\Desktop\\PlayToy\\PlayToy\\PlayToy.csproj",
       "projectName": "PlayToy",
-      "projectPath": "C:\\Users\\Clase\\PlayToy\\PlayToy\\PlayToy.csproj",
+      "projectPath": "C:\\Users\\Clase\\Desktop\\PlayToy\\PlayToy\\PlayToy.csproj",
       "packagesPath": "C:\\Users\\Clase\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Clase\\PlayToy\\PlayToy\\obj\\",
+      "outputPath": "C:\\Users\\Clase\\Desktop\\PlayToy\\PlayToy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
