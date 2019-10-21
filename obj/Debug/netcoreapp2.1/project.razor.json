@@ -2882,13 +2882,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views\\Home\\inicio.cshtml",
-      "TargetPath": "Views\\Home\\inicio.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "Views\\Home\\index.cshtml",
+      "TargetPath": "Views\\Home\\index.cshtml",
       "FileKind": "mvc"
     },
     {
