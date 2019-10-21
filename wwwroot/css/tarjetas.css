@@ -65,7 +65,7 @@ figure .trasera {
 	position: absolute;
 	top: 0;
 	padding: 20px;
-	color: #fff;
+	color:#000;
 	transform: perspective(600px) rotateY(180deg);
 	backface-visibility: hidden;
 	overflow: auto;
@@ -105,7 +105,7 @@ figure .trasera {
 }
 
 figure .trasera .titulo {
-	color: #fff;
+	color:#000;
 	font-weight: normal;
 	margin-bottom: 20px;
 	font-family: 'Roboto', sans-serif;
