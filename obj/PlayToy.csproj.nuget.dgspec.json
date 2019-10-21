@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj": {}
+    "C:\\Users\\MARCO\\Desktop\\Progra_proyecto\\PlayToy\\PlayToy.csproj": {}
   },
   "projects": {
-    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj": {
+    "C:\\Users\\MARCO\\Desktop\\Progra_proyecto\\PlayToy\\PlayToy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj",
+        "projectUniqueName": "C:\\Users\\MARCO\\Desktop\\Progra_proyecto\\PlayToy\\PlayToy.csproj",
         "projectName": "PlayToy",
-        "projectPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\PlayToy.csproj",
-        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-3\\obj\\",
+        "projectPath": "C:\\Users\\MARCO\\Desktop\\Progra_proyecto\\PlayToy\\PlayToy.csproj",
+        "packagesPath": "C:\\Users\\MARCO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MARCO\\Desktop\\Progra_proyecto\\PlayToy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MARCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +41,7 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.App": {
+            "Microsoft.AspNetCore.All": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.1, )",
@@ -55,6 +57,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [
