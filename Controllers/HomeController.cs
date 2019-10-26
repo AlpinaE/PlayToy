@@ -15,6 +15,11 @@ namespace PlayToy.Controllers
             return View();
         }
 
+        public IActionResult Registrar(Usuario u){
+
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";

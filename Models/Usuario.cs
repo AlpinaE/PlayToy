@@ -12,5 +12,6 @@ namespace PlayToy_3.Models
         public DateTime FecNac { get; set; }
         public string Correo { get; set; }
         public string Contrasena { get; set; }
+        public string Email { get; set; }
     }
 }
