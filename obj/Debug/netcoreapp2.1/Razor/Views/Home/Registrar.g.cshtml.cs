@@ -70,7 +70,7 @@ using PlayToy.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(44, 50, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0805823a9c3f4ee7bd40b9b970be869f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "7d34a1fbea9244a6a0300d317c655d46", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -89,7 +89,7 @@ using PlayToy.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(96, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f419b63071964c1980c014d074af1421", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e848400a778f4e03afdb585bb99f0184", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -137,7 +137,7 @@ using PlayToy.Models;
                               ");
             EndContext();
             BeginContext(1636, 1392, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c407eae3be9d4001bf3cfc3c34e9fbb5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f6d896d6e514420bf254be4afb67590", async() => {
                 BeginContext(1670, 1351, true);
                 WriteLiteral(@"
                                   <input class=""input"" type=""text"" placeholder=""&#9993;  DNI"" required>
@@ -176,7 +176,7 @@ using PlayToy.Models;
             WriteLiteral("\r\n                            </div>\r\n                            ");
             EndContext();
             BeginContext(3094, 68, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "41c21bbca4c748239c398f28f28293d7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7bb5cc49f48e48d29b5eed3ce834e34c", async() => {
                 BeginContext(3151, 7, true);
                 WriteLiteral(" cuenta");
                 EndContext();
