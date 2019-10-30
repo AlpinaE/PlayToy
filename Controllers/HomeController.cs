@@ -35,9 +35,15 @@ namespace PlayToy.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Nosotros()
         {
             return View();
+        }
+        public IAsyncResult Loegeo(){
+            return View();
+        }
+        public IAsyncResult Cuenta(){
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
