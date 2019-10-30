@@ -39,11 +39,11 @@ namespace PlayToy.Controllers
         {
             return View();
         }
-        public IAsyncResult Loegeo(){
+        public IActionResult Logeo(){
             return View();
         }
-        public IAsyncResult Cuenta(){
-
+        public IActionResult Cuenta(){
+          return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
