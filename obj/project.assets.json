@@ -14002,11 +14002,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-10\\PlayToy.csproj",
+      "projectUniqueName": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-11\\PlayToy.csproj",
       "projectName": "PlayToy",
-      "projectPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-10\\PlayToy.csproj",
+      "projectPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-11\\PlayToy.csproj",
       "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-      "outputPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-10\\obj\\",
+      "outputPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-11\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
