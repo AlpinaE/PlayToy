@@ -6,12 +6,16 @@
     <title>@ViewData["Title"] - PlayToy</title>
 
     <environment include="Development">
+        
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
         <style>
             body{
             font-family: 'Chewy', cursive;
             }
+            .logo{
+                font-family:'Bungee', cursive;
+                }
              img{
                  max-width: 100%;
              }
@@ -22,11 +26,16 @@
               asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
     </environment>
 </head>
 <body>
-    <div>
-        <img src="~/images/logo.png">
+    <div class="logo">
+        <img src="~/images/erizo.png">
+        <h1>PlayToy</h1>
     </div>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -48,17 +57,19 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Categoría</a></li>
                     
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact" class="topnav-right">Iniciar sesión</a></li>
-                    <button type="button" class="btn btn-dark topnav-right" >Registrarse</button>
+                     <li><a asp-area="" asp-controller="Home" asp-action="Registrar" class="topnav-right">Registrar</a></li>
                     
                 </ul>
             </div>
         </div>
     </nav>
 
-    <partial name="_CookieConsentPartial" />
+  
 
     <div class="container body-content">
+
         @RenderBody()
+
         <hr />
         <footer>
             <p>&copy; 2019 - PlayToy</p>

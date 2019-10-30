@@ -82,7 +82,9 @@ img{
 	height: auto;
 	background-color: #EFEFEF;
 	margin: 5% auto;
-	padding-bottom: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 100px;
+  padding: top 10em; 
 
 }
 
