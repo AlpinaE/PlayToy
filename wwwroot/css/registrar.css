@@ -68,17 +68,18 @@ img{
 
 
 
-.cuerpo{
+.cuerpo1{
 
-  background-image:url(fondo2.jpg);
-  height: 100vh;
+  background-image:url("https://image.freepik.com/vector-gratis/fondo-azul-comic-lineas-medios-tonos_1017-11432.jpg");
+ 
  background-size: cover;
  max-width: 100%;
+ margin: 0;
 }
 
 
 .contain {
-	max-width: 900px;
+	max-width: 700px;
 	height: auto;
 	background-color: #EFEFEF;
 	margin: 5% auto;
@@ -92,7 +93,7 @@ img{
 	width: 100%;
 	text-align: center;
 	padding: 2rem 0 1rem;
-	border-top: solid .4rem #F39B53;
+	border-top: solid .4rem #e79dd9;
 	margin-bottom: 1rem;
 }
 
@@ -103,8 +104,9 @@ img{
 }
 
 h2 span {
-	color: #F39B53;
-  font-size: 26px;
+  -webkit-text-stroke: 1px #AA26D2;
+  font-size: 38px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .form__reg {
@@ -130,7 +132,7 @@ h2 span {
 }
 
 .input:focus {
-	border-bottom: solid #F39B53 .2rem;
+	border-bottom: solid #e79dd9 .2rem;
 }
 
 .btn__submit, .btn__reset {
@@ -141,7 +143,7 @@ h2 span {
 }
 
 .btn__reset {
-	background-color: #EDA135;
+	background-color: #e79dd9;
 }
 
 .btn__submit:hover {
@@ -149,7 +151,7 @@ h2 span {
 }
 
 .btn__reset:hover{
-	background-color: #FA9535;
+	background-color: #e79dd9;
 }
 
 

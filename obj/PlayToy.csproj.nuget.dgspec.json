@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-9\\PlayToy.csproj": {}
+    "D:\\Documentos\\p4\\PlayToy\\PlayToy.csproj": {}
   },
   "projects": {
-    "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-9\\PlayToy.csproj": {
+    "D:\\Documentos\\p4\\PlayToy\\PlayToy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-9\\PlayToy.csproj",
+        "projectUniqueName": "D:\\Documentos\\p4\\PlayToy\\PlayToy.csproj",
         "projectName": "PlayToy",
-        "projectPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-9\\PlayToy.csproj",
-        "packagesPath": "C:\\Users\\Computer\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP_MARÍA\\USMP_2019_II\\PROGRAMACIÓN\\PLAYTOY\\PlayToy-9\\obj\\",
+        "projectPath": "D:\\Documentos\\p4\\PlayToy\\PlayToy.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\Documentos\\p4\\PlayToy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Computer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
