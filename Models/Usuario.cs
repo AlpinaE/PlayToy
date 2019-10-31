@@ -11,7 +11,9 @@ namespace PlayToy_3.Models
         public string ApeMat { get; set; }
         public DateTime FecNac { get; set; }
         public string Correo { get; set; }
-        public string Contrasena { get; set; }
+        public string Contrasena { get; set;}
+
+        public List<Pedido> Pedidos {get;set;}
         
     }
 }
