@@ -15,6 +15,8 @@ namespace PlayToy.Controllers
          private JugueteriaContext _context;
         public JugueteController(JugueteriaContext x) {
             _context = x;
-        }   
+        }  
+        
+         
     }
 }
