@@ -4,9 +4,15 @@
 	box-sizing: border-box;
 }
 
-body {
-	background: #f3f3f3;
-	font-family: 'Open Sans', sans-serif;
+body{
+    background: linear-gradient(
+      25deg,
+      rgb(223, 32, 230),
+      rgb(88, 215, 247)
+    );
+    background-repeat: no-repeat;
+    background-size: 200%;
+    padding: 10px;
 }
 
 a {
