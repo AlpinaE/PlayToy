@@ -16,7 +16,11 @@ namespace PlayToy.Controllers
         public JugueteController(JugueteriaContext x) {
             _context = x;
         }  
-        
-         
+
+        public IActionResult Catalogo(){
+
+        }
+
+
     }
 }

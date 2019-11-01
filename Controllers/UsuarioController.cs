@@ -16,5 +16,33 @@ namespace PlayToy.Controllers
         public UsuarioController(JugueteriaContext x) {
             _context = x;
         } 
+
+        public IActionResult Logeo(string user, string password){
+
+            if(user.equalsIngoreCase(Usuario.User)  && password.equalsIngoreCase(Usuario.Contrasena)){
+                    
+            }
+
+            return View()
+        }
+
+        public IActionResult Registrar(Usuario u){
+
+             if (ModelState.IsValid) {
+                _context.Add(u);
+                _context.SaveChanges();
+                return RedirectToAction("Logeo");
+            }
+            return View(u);
+        }
+
+        public IActionResult Cuenta()
+        {
+            var lista = _context.Usuarios.Include(x => x.Juguetes).ToList();
+            return View(lista);
+        }
+
+        
+
     }
 }
