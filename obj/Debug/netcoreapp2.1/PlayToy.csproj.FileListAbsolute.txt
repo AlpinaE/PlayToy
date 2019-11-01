@@ -177,8 +177,6 @@ C:\Users\Clase\Desktop\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.AssemblyI
 C:\Users\Clase\Desktop\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.AssemblyInfo.cs
 C:\Users\Clase\Desktop\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.dll
 C:\Users\Clase\Desktop\PlayToy\PlayToy\obj\Debug\netcoreapp2.1\PlayToy.pdb
-C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\Cuenta.g.cshtml.cs
-C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\Registrar.g.cshtml.cs
 D:\Documentos\a\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.deps.json
 D:\Documentos\a\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.runtimeconfig.json
 D:\Documentos\a\PlayToy\bin\Debug\netcoreapp2.1\PlayToy.runtimeconfig.dev.json
@@ -383,4 +381,8 @@ D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-11\obj\Debug\netcoreap
 D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-11\obj\Debug\netcoreapp2.1\PlayToy.dll
 D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-11\obj\Debug\netcoreapp2.1\PlayToy.pdb
 D:\USMP_MARÍA\USMP_2019_II\PROGRAMACIÓN\PLAYTOY\PlayToy-11\obj\Debug\netcoreapp2.1\PlayToy.csproj.CopyComplete
-C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\Logeo.g.cshtml.cs
+C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Home\RecuperarCuenta.g.cshtml.cs
+C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Juguete\Catalogo.g.cshtml.cs
+C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Cuenta.g.cshtml.cs
+C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Logeo.g.cshtml.cs
+C:\Users\MARCO\Desktop\Progra_proyecto\PlayToy\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Registrar.g.cshtml.cs

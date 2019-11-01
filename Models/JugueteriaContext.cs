@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using PlayToy.Models;
 
 namespace PlayToy_3.Models
 {

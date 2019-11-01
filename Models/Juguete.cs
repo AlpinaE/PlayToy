@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace PlayToy.Models
 {
     public class Juguete
@@ -10,6 +12,5 @@ namespace PlayToy.Models
         public string Categoria{get;set;}
         public List<Pedido> Pedidos {get;set;}
         
-
     }
 }

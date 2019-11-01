@@ -17,13 +17,12 @@ namespace PlayToy.Controllers
             _context = x;
         } 
 
-        public IActionResult Logeo(string user, string password){
-
-            if(user.equalsIngoreCase(Usuario.User)  && password.equalsIngoreCase(Usuario.Contrasena)){
-                    
-            }
-
-            return View()
+        public IActionResult Logeo(string user,string contraseña){
+            //Usuario u;
+            /*
+             if(user.Equals(u.Nombre)==true && contraseña.Equals(u.Contrasena)) {       
+            }*/
+            return View();
         }
 
         public IActionResult Registrar(Usuario u){
@@ -38,11 +37,8 @@ namespace PlayToy.Controllers
 
         public IActionResult Cuenta()
         {
-            var lista = _context.Usuarios.Include(x => x.Juguetes).ToList();
-            return View(lista);
+            //var lista = _context.Usuarios.Include(x => x.Juguetes).ToList();
+            return View(/*lista*/);
         }
-
-        
-
     }
 }

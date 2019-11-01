@@ -18,9 +18,7 @@ namespace PlayToy.Controllers
         }  
 
         public IActionResult Catalogo(){
-
+            return View();
         }
-
-
     }
 }
