@@ -1,18 +1,14 @@
 @model Usuario
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Legeo</title>
-</head>
+
 <link rel="stylesheet" href="~/css/logeo.css">
 <script src="~/js/logeo.js"></script>
-<body>
+<br>
+
+<br><br><br><br>
+
     <div class="login-page">
     <div class="form">
-      <form class="login-form" method="post" asp-action="Logeo">
+      <form class="login-form" method="post" asp-controller="Usuario" asp-action="Logeo">
         <input asp-for="User" type="text" placeholder="username"/>
         <input asp-for="Contrasena"type="password" placeholder="password"/>
         <button>login</button>
@@ -21,5 +17,3 @@
       </form>
     </div>
   </div>
-</body>
-</html>

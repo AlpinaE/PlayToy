@@ -1,6 +1,9 @@
 
 body {
 
+    background-image: url(../images/bg-01.jpg);
+    background-size: 100%;
+
   font-family: 'Chewy', cursive;
 }
 
@@ -68,14 +71,7 @@ img{
 
 
 
-.cuerpo1{
 
-  background-image:url("https://image.freepik.com/vector-gratis/fondo-azul-comic-lineas-medios-tonos_1017-11432.jpg");
- 
- background-size: cover;
- max-width: 100%;
- margin: 0;
-}
 
 
 .contain {

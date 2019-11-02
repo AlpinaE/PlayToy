@@ -60,8 +60,8 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Sedes</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Categoría</a></li>
                     
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact" class="topnav-right">Iniciar sesión</a></li>
-                     <li><a asp-area="" asp-controller="Home" asp-action="Registrar" class="topnav-right">Registrar</a></li>
+                    <li><a asp-area="" asp-controller="Usuario" asp-action="Logeo" class="topnav-right">Iniciar sesión</a></li>
+                     <li><a asp-area="" asp-controller="Usuario" asp-action="Registrar" class="topnav-right">Registrar</a></li>
                     
                 </ul>
             </div>
@@ -69,14 +69,14 @@
     </nav>
 
   
-<div class="cuerpo1">
+
     <div class="container body-content">
 
         @RenderBody()
 
      
     </div>
-</div>
+
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
