@@ -1,3 +1,4 @@
+@model Usuario
 @{
     ViewData["Title"] = "Inicio";
 }
@@ -28,20 +29,21 @@
                       <br>
                       <br>
                       <br><br>
-                      <div class="contain">
+                      <form asp-controller="Usuario" asp-action= "Registrar">
+                                     <div class="contain">
                               <div class="form__top">
                                 <h2><span>Crear una cuenta</span></h2>
                               </div>
+                              <div asp-validation-summary="All"></div>
                               <form class="form__reg" action="">
-                                  <input class="input" type="text" placeholder="&#9993;  DNI" required>
-                                <input class="input" type="text" placeholder="&#128100;  Nombre" required autofocus>
-                                <input class="input" type="text" placeholder="&#128100;  Apellido paterno" required autofocus>
-                                <input class="input" type="text" placeholder="&#128100;  Apellido materno" required autofocus>
-                                <input class="input" type="date" placeholder="&#128100;  Fecha de nacimiento" required autofocus>
-                                      <input class="input" type="password" placeholder="&#9993;  Contraseña" required>
-                                        <input class="input" type="password" placeholder="&#9993;  Repetir Contraseña" required>
-                                        <input class="input" type="email" placeholder="&#9993;  Email" required>
-                                    
+                                <input asp-for="User"  class="input" type="text" placeholder="&#9993;  DNI" >
+                                <input asp-for="Nombre"class="input" type="text" placeholder="&#128100;  Nombre" >
+                                <input asp-for="ApePat"class="input" type="text" placeholder="&#128100;  Apellido paterno" >
+                                <input asp-for="ApeMat"class="input" type="text" placeholder="&#128100;  Apellido materno">
+                                <input asp-for="FecNac"class="input" type="date" placeholder="&#128100;  Fecha de nacimiento" >
+                                <input asp-for="Contrasena"class="input" type="password" placeholder="&#9993;  Contraseña" >
+                                <input asp-for="Contrasena"class="input" type="password" placeholder="&#9993;  Repetir Contraseña" >
+                                <input asp-for="Correo"class="input" type="email" placeholder="&#9993;  Email" >
                                       <div class="btn__form">
                                         <input class="btn__submit" type="submit" value="REGISTRAR">
                                         <input class="btn__reset" type="reset" value="LIMPIAR">
@@ -49,3 +51,4 @@
                               </form>
                             </div>
                             <a asp-area="" asp-controller="Home" asp-action="Cuenta"> cuenta</a>
+</form>

@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace PlayToy.Migrations
 {
-    public partial class BDJugueteria : Migration
+    public partial class playtoy : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using PlayToy.Models;
 
-namespace PlayToy_3.Models
+namespace PlayToy.Models
 {
     public class JugueteriaContext: DbContext
     {

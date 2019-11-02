@@ -5,20 +5,20 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using PlayToy_3.Models;
+using PlayToy.Models;
 
 namespace PlayToy.Migrations
 {
     [DbContext(typeof(JugueteriaContext))]
-    [Migration("20191102013545_BDJugueteria")]
-    partial class BDJugueteria
+    [Migration("20191102052552_playtoy")]
+    partial class playtoy
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
-                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
+                .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             modelBuilder.Entity("PlayToy.Models.Juguete", b =>
@@ -63,7 +63,7 @@ namespace PlayToy.Migrations
                     b.ToTable("Pedidos");
                 });
 
-            modelBuilder.Entity("PlayToy_3.Models.Usuario", b =>
+            modelBuilder.Entity("PlayToy.Models.Usuario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -93,7 +93,7 @@ namespace PlayToy.Migrations
                         .WithMany("Pedidos")
                         .HasForeignKey("JugueteID");
 
-                    b.HasOne("PlayToy_3.Models.Usuario", "Usuario")
+                    b.HasOne("PlayToy.Models.Usuario", "Usuario")
                         .WithMany("Pedidos")
                         .HasForeignKey("UsuarioId");
                 });

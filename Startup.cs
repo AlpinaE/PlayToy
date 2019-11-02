@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using PlayToy_3.Models;
 using Microsoft.EntityFrameworkCore;
+using PlayToy.Models;
 namespace PlayToy
 {
     public class Startup
@@ -35,10 +35,10 @@ namespace PlayToy
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddDbContext<JugueteriaContext>(o => o.UseNpgsql (" Host = ec2-54-83-9-36.compute-1.amazonaws.com; Username= lusfdogicdreor;"+ 
-               "Password= a3ca1f1545b695fdcad5c53eaeb4d717bbe627b02baa718294952f5925b7e41d;" + 
-             "Database = df58pne1bgkroj; Port= 5432; SSL Mode= Require; Trust Server certificate = true"));
-            
+            services.AddDbContext<JugueteriaContext>(o => o.UseNpgsql (" Host = ec2-23-21-129-125.compute-1.amazonaws.com; Username=rqmevywkkiznpk;"+ 
+               "Password= f640f862a8196e599a67cda1215d4f4dd082c1f1c07b5c5dd9908c58ee5f29cc;" + 
+               "Database = dedt7viru818h3; Port= 5432; SSL Mode= Require; Trust Server certificate = true"));
+        
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,6 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-using PlayToy_3.Models;
+using PlayToy.Models;
 
 namespace PlayToy.Models
 {

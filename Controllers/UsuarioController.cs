@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using PlayToy.Models;
-using PlayToy_3.Models;
 
 
 namespace PlayToy.Controllers
@@ -15,16 +14,40 @@ namespace PlayToy.Controllers
         private JugueteriaContext _context;
         public UsuarioController(JugueteriaContext x) {
             _context = x;
+        }
+        public IActionResult Logeo(){
+            return View();
         } 
+        
+        [HttpPost]
+        public IActionResult ValidarUsuario(){
+            var usu= _context.Usuarios.ToList();
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Logeo(string user, string pass){
+                var usuario = _context.Usuarios.FirstOrDefault(u => u.User == user && u.Contrasena == pass);
+                if(usuario!=null){
+                    return RedirectToAction("Cuenta");
+                    
 
-        public IActionResult Logeo(string user,string contraseña){
-            //Usuario u;
-            /*
-             if(user.Equals(u.Nombre)==true && contraseña.Equals(u.Contrasena)) {       
-            }*/
+                    /*if(empleado.Categoria=="Jefe de programación"){
+                        return RedirectToAction("MenuJefe");
+                    }else{
+                        return RedirectToAction("MenuOtros");
+                    }*/
+                }else{
+                    //return Ingresar("Usuario o contraseña incorrectos");
+                    return RedirectToAction("Logeo");
+                }
+        }
+        
+        
+        public IActionResult Registrar(){
             return View();
         }
 
+        [HttpPost]
         public IActionResult Registrar(Usuario u){
 
              if (ModelState.IsValid) {
