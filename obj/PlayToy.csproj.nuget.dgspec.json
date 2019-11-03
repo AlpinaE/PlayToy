@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\p7\\PlayToy\\PlayToy.csproj": {}
+    "C:\\Users\\MARCO\\Desktop\\software\\PlayToy\\PlayToy.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\p7\\PlayToy\\PlayToy.csproj": {
+    "C:\\Users\\MARCO\\Desktop\\software\\PlayToy\\PlayToy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\p7\\PlayToy\\PlayToy.csproj",
+        "projectUniqueName": "C:\\Users\\MARCO\\Desktop\\software\\PlayToy\\PlayToy.csproj",
         "projectName": "PlayToy",
-        "projectPath": "D:\\Documentos\\p7\\PlayToy\\PlayToy.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\p7\\PlayToy\\obj\\",
+        "projectPath": "C:\\Users\\MARCO\\Desktop\\software\\PlayToy\\PlayToy.csproj",
+        "packagesPath": "C:\\Users\\MARCO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MARCO\\Desktop\\software\\PlayToy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\MARCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

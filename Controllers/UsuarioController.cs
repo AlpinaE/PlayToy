@@ -25,22 +25,14 @@ namespace PlayToy.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Logeo(string user, string pass){
-                var usuario = _context.Usuarios.FirstOrDefault(u => u.User == user && u.Contrasena == pass);
+        public IActionResult Logeo(string User, string Contrasena){
+                var usuario = _context.Usuarios.FirstOrDefault(u => u.User == User && u.Contrasena == Contrasena);
                 if(usuario!=null){
                     return RedirectToAction("Cuenta");
-                    
-
-                    /*if(empleado.Categoria=="Jefe de programación"){
-                        return RedirectToAction("MenuJefe");
-                    }else{
-                        return RedirectToAction("MenuOtros");
-                    }*/
                 }else{
-                    //return Ingresar("Usuario o contraseña incorrectos");
                     return RedirectToAction("Logeo");
                 }
-        }
+        }   
         
         
         public IActionResult Registrar(){
